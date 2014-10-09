@@ -1,0 +1,33 @@
+{
+  "name": "sails-generate-auth",
+  "version": "0.10.0",
+  "description": "sails generate auth",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "auth",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "balderdashy",
+  "license": "MIT",
+  "dependencies": {
+  	"lodash": ">=2.4.x",
+  	"merge-defaults": ">=0.1.0",
+    "node-uuid": ">=1.4.1"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "auth",
+    "behavior": "overrides `sails generate auth`",
+    "sailsVersion": "~0.10.0"
+  }
+}
