@@ -10,12 +10,12 @@ _.defaults = require('merge-defaults');
 
 
 /**
- * sails-generate-auth
+ * sails-generate-login
  *
  * Usage:
- * `sails generate auth`
+ * `sails generate login`
  *
- * @description Generates a auth
+ * @description Generates a login
  * @help See http://links.sailsjs.org/docs/generators
  */
 
@@ -37,10 +37,10 @@ module.exports = {
     // scope.args are the raw command line arguments.
     //
     // e.g. if someone runs:
-    // $ sails generate auth user find create update
+    // $ sails generate login user find create update
     // then `scope.args` would be `['user', 'find', 'create', 'update']`
     /*if (!scope.args[0]) {
-      return cb( new Error('Please provide a name for this auth.') );
+      return cb( new Error('Please provide a name for this login.') );
     }*/
 
     // scope.rootPath is the base path for this generator
@@ -153,9 +153,9 @@ function updatePackage (path) {
 
 function INVALID_SCOPE_VARIABLE (varname, details, message) {
   var DEFAULT_MESSAGE =
-  'Issue encountered in generator "auth":\n'+
+  'Issue encountered in generator "login":\n'+
   'Missing required scope variable: `%s`"\n' +
-  'If you are the author of `sails-generate-auth`, please resolve this '+
+  'If you are the author of `sails-generate-login`, please resolve this '+
   'issue and publish a new patch release.';
 
   message = (message || DEFAULT_MESSAGE) + (details ? '\n'+details : '');

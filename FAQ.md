@@ -6,10 +6,10 @@
 The latest stable version in npm is always a safe bet.
 
 ```sh
-$ npm install sails-generate-auth
+$ npm install sails-generate-login
 ```
 
-[![NPM](https://nodei.co/npm/sails-generate-auth.png?downloads=true&stars=true)](https://nodei.co/npm/sails-generate-auth/)
+[![NPM](https://nodei.co/npm/sails-generate-login.png?downloads=true&stars=true)](https://nodei.co/npm/sails-generate-login/)
 
 
 
@@ -78,4 +78,4 @@ If you feel that yours is the better approach, and should be the default, share 
 
 
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8acf2fc2ca0aca8a3018e355ad776ed7 "githalytics.com")](http://githalytics.com/balderdashy/sails-generate-auth/FAQ.md)
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8acf2fc2ca0aca8a3018e355ad776ed7 "githalytics.com")](http://githalytics.com/balderdashy/sails-generate-login/FAQ.md)
